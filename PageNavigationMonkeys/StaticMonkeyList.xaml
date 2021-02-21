@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PageNavigationMonkeys.StaticMonkeyList">
+    <ContentPage.Content>
+        <StackLayout>
+            <ImageButton Source="{Binding M1.ImageUrl}" x:Name="img1" Clicked="img1_Clicked"/>
+            <BoxView Color="Blue" WidthRequest="160" VerticalOptions="Center" HeightRequest="10"/>
+            <ImageButton Source="{Binding M2.ImageUrl}" x:Name="img2" Clicked="img2_Clicked"/>
+            <BoxView Color="Blue" WidthRequest="160" VerticalOptions="Center" HeightRequest="10"/>
+            <ImageButton Source="{Binding M3.ImageUrl}" x:Name="img3" Clicked="img3_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

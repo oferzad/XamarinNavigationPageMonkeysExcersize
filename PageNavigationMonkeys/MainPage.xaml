@@ -4,11 +4,9 @@
              x:Class="PageNavigationMonkeys.MainPage">
 
     <StackLayout>
-        <ImageButton Source="{Binding M1.ImageUrl}" x:Name="img1" Clicked="img1_Clicked"/>
-        <BoxView Color="Blue" WidthRequest="160" VerticalOptions="Center" HeightRequest="10"/>
-        <ImageButton Source="{Binding M2.ImageUrl}" x:Name="img2" Clicked="img2_Clicked"/>
-        <BoxView Color="Blue" WidthRequest="160" VerticalOptions="Center" HeightRequest="10"/>
-        <ImageButton Source="{Binding M3.ImageUrl}" x:Name="img3" Clicked="img3_Clicked"/>
+        
+        <Button Text="Create Static List" x:Name="staticButton" Clicked="staticButton_Clicked"/>
+        <Button Text="Create Dynamic List" x:Name="dynamicButton" Clicked="dynamicButton_Clicked"/>
     </StackLayout>
 
 </ContentPage>

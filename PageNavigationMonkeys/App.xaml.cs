@@ -9,8 +9,9 @@ namespace PageNavigationMonkeys
         public App()
         {
             InitializeComponent();
-
-            MainPage = new NavigationPage(new MainPage());
+            Page p = new MainPage();
+            p.Title = "Monkey Lists";
+            MainPage = new NavigationPage(p);
             
         }
 
